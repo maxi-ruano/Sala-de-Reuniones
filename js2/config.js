@@ -1,0 +1,7 @@
+var apiKey = '47565091';
+var sessionId = '1_MX40NzU2NTA5MX5-MTY2NzU5NTEwMjE3M35wTytab1BDU0pMWnllWHpGNW03a1ZTRjZ-fg';
+var token = 'T1==cGFydG5lcl9pZD00NzU2NTA5MSZzaWc9NGQ3YTdjM2Q1ZTVhMjc1YzA3MGI2ZGIxZGI4NWZmYjA3ODY2MmU4ODpzZXNzaW9uX2lkPTFfTVg0ME56VTJOVEE1TVg1LU1UWTJOelU1TlRFd01qRTNNMzV3VHl0YWIxQkRVMHBNV25sbFdIcEdOVzAzYTFaVFJqWi1mZyZjcmVhdGVfdGltZT0xNjY3NTk1MTIwJm5vbmNlPTAuMzY1ODg2MzI3NTIwMjQ5MyZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNjY3NTk4NzIxJmluaXRpYWxfbGF5b3V0X2NsYXNzX2xpc3Q9';
+
+// Set this to true and signals initiated while reconnecting to a session
+// will be sent when reconnected:
+var retrySignalOnReconnect = false;

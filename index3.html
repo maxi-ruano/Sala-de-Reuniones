@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css2/styles.css">
+  </head>
+  <body>
+    <h1 class="titule">LIVE</h1>
+    <a  href="index2.html" class="Disconnect"   id="salir-sesion">Salir de la sala</a> 
+    <p class="status">Session status: <span  class="log2" id="log">Not connected.</span>
+    <div id="videos">
+      <div id="publisher"></div>
+      <div id="subscribers"></div>
+    </div>
+    <br><br/>
+
+    <p>Signal log: <button  class="btn btn-primary active" id="signalButton" onclick="sendSignal()">Send signal</button>
+    <div id="signals"></div>
+
+		<script src='//static.opentok.com/v2/js/opentok.min.js'></script>
+    <script src="js2/config.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js2/app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/sweetAlert.js"></script>
+  </body>
+</html>
